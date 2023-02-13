@@ -22,16 +22,36 @@
 // console.log(myDogAge)
 
 
-let count = 50
-console.log(count)
+// let count = 50
+// console.log(count)
 
-let bonusPoint = count + 50 
-console.log(bonusPoint)
+// let bonusPoint = count + 50 
+// console.log(bonusPoint)
 
-bonusPoint = bonusPoint  - 75 
-console.log(bonusPoint)
+// bonusPoint = bonusPoint  - 75 
+// console.log(bonusPoint)
 
 
-bonusPoint = bonusPoint  + 45
-console.log(bonusPoint)
+// bonusPoint = bonusPoint  + 45
+// console.log(bonusPoint)
 
+
+// initialize the count  as 0 
+// listen for clicks on the increment butto
+// increment the count variable when the buttn is hit
+// chnage the count-el in the html
+
+function increment() {
+  console.log("the button was clicked")
+ }
+
+ increment()
+
+function countdown() {
+console.log(5)
+
+console.log(4)
+
+console.log(3)
+}
+countdown()
