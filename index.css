@@ -7,7 +7,7 @@ body {
 }
 
 .box {
-  background: hsla(206,5%,70%,0.92);
+  background: hsla(206, 92%, 46%, 0.92);
   padding: 20px;
   width: 50%;
   margin: 50px auto;
@@ -28,7 +28,7 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
