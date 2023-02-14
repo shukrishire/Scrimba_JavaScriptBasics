@@ -41,17 +41,76 @@
 // increment the count variable when the buttn is hit
 // chnage the count-el in the html
 
-function increment() {
-  console.log("the button was clicked")
- }
+// function increment() {
+//   console.log("the button was clicked")
+//  }
 
- increment()
+//  increment()
 
-function countdown() {
-console.log(5)
+// setting up the first race 
+// function countdown() {
+// console.log(5)
 
-console.log(4)
+// console.log(4)
 
-console.log(3)
+// console.log(3)
+// }
+// countdown()
+
+// // second race 
+// countdown()
+
+
+// create a function  that logs out the number 42 to the console 
+
+// function myLogger(){
+//     console.log(42)
+// }
+// myLogger()
+
+
+// let lap1 = 34;
+// let lap2 = 33;
+// let lap3 = 36;
+
+// //create a funtion that logges out the total sum 
+
+// function logedLapTime(){
+//    // console.log(lap1)
+//    // console.log(lap2)
+//     console.log(lap1+ lap2+lap3)  //either way is the same 
+//     let allSum = lap1+ lap2+lap3
+//     console.log(allSum)
+// }
+// logedLapTime()
+
+
+// let lapsCompleted = 0 
+
+// function incrementLap(){
+//     lapsCompleted = lapsCompleted + 1
+    
+// }
+// incrementLap()
+
+// console.log(lapsCompleted)
+
+
+// let funds = 2;
+
+// while(funds > 0 && funds < 5){
+//     funds = funds  + 1;
+//     let answerFunds = funds
+//     console.log(funds)
+// }
+
+// the following function is the same as before except that it 
+//uses a while loop instead of having to mannually run each time 
+let lapsCompleted2 = 0
+while(lapsCompleted2 >= 0 && lapsCompleted2 <= 2){
+    lapsCompleted2 = lapsCompleted2 + 1
+    console.log(lapsCompleted2)
+    
 }
-countdown()
+
+
