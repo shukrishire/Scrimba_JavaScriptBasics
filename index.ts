@@ -106,11 +106,40 @@
 
 // the following function is the same as before except that it 
 //uses a while loop instead of having to mannually run each time 
-let lapsCompleted2 = 0
-while(lapsCompleted2 >= 0 && lapsCompleted2 <= 2){
-    lapsCompleted2 = lapsCompleted2 + 1
-    console.log(lapsCompleted2)
+// let lapsCompleted2 = 0
+// while(lapsCompleted2 >= 0 && lapsCompleted2 <= 2){
+//     lapsCompleted2 = lapsCompleted2 + 1
+//     console.log(lapsCompleted2)
     
+// }
+
+let countEl = document.getElementById("count-el") 
+
+console.log(countEl)
+
+let count = 0;
+
+//console.log(count)
+
+// initialize the count  as 0 
+// listen for clicks on the increment butto
+// increment the count variable when the buttn is hit
+// change the count-el in the html
+
+function increment() {
+  //console.log("the button was clicked")
+  count = count + 1;
+  countEl.innerText = count
+  //console.log(count)
+ }
+// next vid
+// 1. Create  a function, save(), which logs the count when its called 
+
+// see the index html for this step 
+
+function save(){
+
+    console.log(count)
 }
 
-
+ save()
