@@ -130,7 +130,7 @@ function increment() {
   //console.log("the button was clicked")
   count = count + 1;
   countEl.innerText = count
-  //console.log(count)
+
  }
 // next vid
 // 1. Create  a function, save(), which logs the count when its called 
@@ -138,8 +138,29 @@ function increment() {
 // see the index html for this step 
 
 function save(){
-
     console.log(count)
 }
 
- save()
+let username = "per"  
+console.log(username)
+
+
+let messageVariable = "You have three new notifications"
+//console.log(messageVariable + "," + " " + username +  "!")
+
+
+let messageToUser = messageVariable + "," + " " + username +  "!";
+console.log(messageToUser)
+
+let Name = "Shukri";
+let greeting = "Salam, my name is";
+
+let myGreeting = greeting + " " + Name;
+console.log(myGreeting)
+
+
+let points = 14; 
+let bonusPoints = "10";
+
+let totalPoints = points + bonusPoints;
+console.log(totalPoints)
