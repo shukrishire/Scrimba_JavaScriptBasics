@@ -113,11 +113,11 @@
     
 // }
 
-let countEl = document.getElementById("count-el") 
+// let countEl = document.getElementById("count-el") 
 
-console.log(countEl)
+// console.log(countEl)
 
-let count = 0;
+// let count = 0;
 
 //console.log(count)
 
@@ -126,41 +126,65 @@ let count = 0;
 // increment the count variable when the buttn is hit
 // change the count-el in the html
 
-function increment() {
-  //console.log("the button was clicked")
-  count = count + 1;
-  countEl.innerText = count
+// function increment() {
+//   //console.log("the button was clicked")
+//   count = count + 1;
+//   countEl.innerText = count
 
- }
-// next vid
-// 1. Create  a function, save(), which logs the count when its called 
+//  }
+// // next vid
+// // 1. Create  a function, save(), which logs the count when its called 
 
-// see the index html for this step 
+// // see the index html for this step 
 
-function save(){
-    console.log(count)
-}
+// function save(){
+//     console.log(count)
+// }
 
-let username = "per"  
-console.log(username)
-
-
-let messageVariable = "You have three new notifications"
-//console.log(messageVariable + "," + " " + username +  "!")
+// let username = "per"  
+// console.log(username)
 
 
-let messageToUser = messageVariable + "," + " " + username +  "!";
-console.log(messageToUser)
+// let messageVariable = "You have three new notifications"
+// //console.log(messageVariable + "," + " " + username +  "!")
+
+
+// let messageToUser = messageVariable + "," + " " + username +  "!";
+// console.log(messageToUser)
+
+// let Name = "Shukri";
+// let greeting = "Salam, my name is";
+
+// let myGreeting = greeting + " " + Name;
+// console.log(myGreeting)
+
+
+// let points = 14; 
+// let bonusPoints = "10";
+
+// let totalPoints = points + bonusPoints;
+// console.log(totalPoints)
+
+// console.log(4+5)
+// console.log("4" + "5")
+// console.log("5" + 1)
+// console.log(654 + "654")
+
+
+// Grab the Welcome paragrapg and store it in a variable called "welcomeEl"
+
+let WelcomeEl = document.getElementById("Welcome-el") 
+console.log(WelcomeEl)
+
+
+// Create two variables (name and greeting) that contains your name and the greetinf 
 
 let Name = "Shukri";
+console.log(Name);
+
 let greeting = "Salam, my name is";
 
 let myGreeting = greeting + " " + Name;
 console.log(myGreeting)
 
-
-let points = 14; 
-let bonusPoints = "10";
-
-let totalPoints = points + bonusPoints;
-console.log(totalPoints)
+WelcomeEl.innerText = myGreeting;
