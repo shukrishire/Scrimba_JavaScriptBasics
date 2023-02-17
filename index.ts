@@ -113,34 +113,37 @@
     
 // }
 
-// let countEl = document.getElementById("count-el") 
+let countEl = document.getElementById("count-el") 
+console.log(countEl)
 
-// console.log(countEl)
-
-// let count = 0;
-
-//console.log(count)
+let saveEl = document.getElementById("save-el") 
+console.log(saveEl)
+let count = 0;
 
 // initialize the count  as 0 
 // listen for clicks on the increment butto
 // increment the count variable when the buttn is hit
 // change the count-el in the html
 
-// function increment() {
-//   //console.log("the button was clicked")
-//   count = count + 1;
-//   countEl.innerText = count
+function increment() {
+  //console.log("the button was clicked")
+    count += 1 
+    countEl.textContent = count
 
-//  }
-// // next vid
-// // 1. Create  a function, save(), which logs the count when its called 
+  }
+// next vid1. Create  a function, save(), which logs the count when its called 
 
-// // see the index html for this step 
 
-// function save(){
-//     console.log(count)
-// }
+function save(){
+    let countStr  = count + " - "
+    saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0 
 
+
+ }
+
+ //console.log(save)
 // let username = "per"  
 // console.log(username)
 
@@ -173,18 +176,20 @@
 
 // Grab the Welcome paragrapg and store it in a variable called "welcomeEl"
 
-let WelcomeEl = document.getElementById("Welcome-el") 
-console.log(WelcomeEl)
+// let WelcomeEl = document.getElementById("Welcome-el") 
+// console.log(WelcomeEl)
 
 
 // Create two variables (name and greeting) that contains your name and the greetinf 
 
-let Name = "Shukri";
-console.log(Name);
+// let Name = "Shukri";
+// console.log(Name);
 
-let greeting = "Salam, my name is";
+// let greeting = "Salam, my name is";
 
-let myGreeting = greeting + " " + Name;
-console.log(myGreeting)
+// let myGreeting = greeting + " " + Name;
+// console.log(myGreeting)
 
-WelcomeEl.innerText = myGreeting;
+// WelcomeEl.innerText = myGreeting;
+
+// WelcomeEl.innerText   +=  "👋🏾"
