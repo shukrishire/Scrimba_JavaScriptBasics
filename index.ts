@@ -193,3 +193,75 @@ function save(){
 // WelcomeEl.innerText = myGreeting;
 
 // WelcomeEl.innerText   +=  "👋🏾"
+
+
+// practice for  part1: the counter App
+
+// Create two variables, firstName and lastName 
+
+let firstName = "Tasnim";
+let lastName = "Adan";
+let fullName = firstName + " " + lastName;
+console.log(fullName)
+
+// Create a function that logs out "Hi there, Khadija!" when called
+let Name = "khadija";
+let greeting = "Hi there";
+function funGreeting(){
+  let newGreeting = greeting + "," + Name + "!";
+  console.log(newGreeting)
+}
+funGreeting()
+
+// incrementing and decrementing: 
+
+let myPoints = 3;
+
+function add3Points(){
+  myPoints += 3;
+  //console.log(myPoints)
+  // myPoints = 3 
+
+}
+
+
+function remove1Point(){
+
+  myPoints -=1;
+  // console.log(myPoints)
+
+}
+
+// add3Points()
+// add3Points()
+// add3Points()
+
+
+// remove1Point()
+// remove1Point()
+// console.log(myPoints)
+
+
+// let lapsCompleted2 = 0
+// while(myPoints >= 3 && myPoints < 10 ){
+      
+//       myPoints += 3;
+//       myPoints -=1;
+      
+     
+    
+//  }
+
+//  console.log(myPoints)
+
+//  console.log("2" + 2)
+//  console.log("My points are" + ": " + 2) //this is the sentance  plus : and 2 
+//  console.log(2 +2) // this is 4 
+// console.log("11" + "22") //this is 1122 as two strings connected togather
+// console.log(2 + "4") // this is 24
+
+//when the user clicks the purchase button, render out
+//"something went wrong, please try again" in the paragraph 
+//that has id="error"
+
+console.log("Salam Agian")
