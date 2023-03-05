@@ -118,6 +118,11 @@ console.log(countEl)
 
 let saveEl = document.getElementById("save-el") 
 console.log(saveEl)
+
+let purchaseEl = document.getElementById("purchase-el") 
+console.log(purchaseEl)
+
+
 let count = 0;
 
 // initialize the count  as 0 
@@ -134,18 +139,22 @@ function increment() {
 // next vid1. Create  a function, save(), which logs the count when its called 
 
 
-function save(){
-    let countStr  = count + " - "
-    saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0 
+// function save(){
+//     let countStr  = count + " - "
+//     saveEl.textContent += countStr
+//     countEl.textContent = 0
+//     count = 0 
 
 
- }
+//  }
 
  //console.log(save)
 // let username = "per"  
 // console.log(username)
+
+
+
+
 
 
 // let messageVariable = "You have three new notifications"
@@ -265,3 +274,15 @@ function remove1Point(){
 //that has id="error"
 
 console.log("Salam Agian")
+
+
+//PRACTICE 
+
+function purchase(){
+  let countStr  = count + " - "
+  saveEl.textContent += countStr
+  countEl.textContent = 0
+  count = 0 
+
+
+}
