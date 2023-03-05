@@ -1,5 +1,5 @@
-body {
-    background-image: url("station.jpeg");
+ody {
+    
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -7,7 +7,7 @@ body {
 }
 
 .box {
-  background: hsla(206, 92%, 46%, 0.92);
+  background: hsla(235, 98%, 41%, 0.92);
   padding: 20px;
   width: 50%;
   margin: 50px auto;
@@ -28,7 +28,7 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: yellowgreen;
+    color: red;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -36,9 +36,11 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: red;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: green;
 }
+
+
